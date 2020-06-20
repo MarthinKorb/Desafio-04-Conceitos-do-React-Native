@@ -85,11 +85,11 @@ const styles = StyleSheet.create({
   repositoryContainer: {
     marginBottom: 15,
     marginHorizontal: 15,
-    backgroundColor: "#fff",
+    backgroundColor: "#f5f5f5",
     padding: 20,
   },
   repository: {
-    fontSize: 32,
+    fontSize: 28,
     fontWeight: "bold",
   },
   techsContainer: {
@@ -104,6 +104,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 10,
     paddingVertical: 5,
     color: "#fff",
+    borderRadius: 5
   },
   likesContainer: {
     marginTop: 15,
@@ -111,15 +112,15 @@ const styles = StyleSheet.create({
     justifyContent: "space-between",
   },
   likeText: {
-    fontSize: 14,
+    fontSize: 16,
     fontWeight: "bold",
     marginRight: 10,
   },
   button: {
-    marginTop: 10,
+    marginTop: 10, 
   },
   buttonText: {
-    fontSize: 14,
+    fontSize: 16,
     fontWeight: "bold",
     marginRight: 10,
     color: "#fff",
